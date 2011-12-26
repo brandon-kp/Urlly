@@ -1,0 +1,143 @@
+@CHARSET "ISO-8859-1";
+body{
+background:#000 url('http://i.imgur.com/5VwLt.jpg') center top repeat;
+margin:0;
+padding:0;
+}
+
+.clear{clear:both}
+
+#container{
+position:relative;
+top:120px;
+margin:0 auto;
+width:500px;
+text-align:center;
+}
+
+#form{
+background:url('../images/inputgrad.png') center top no-repeat;
+width:500px;
+height:75px;
+}
+
+#form input, #form input[type=text]{
+margin-top:20px;
+border:0;
+width:360px;
+height:32px;
+border:0;
+background:transparent;
+font-size:30px;
+color:#ddd;
+font-family:'segoe ui';
+text-align:center;
+}
+
+#fade{
+color:#fff;
+font-size:18pt;
+font-family:'segoe ui';
+background:#151515;
+border:1px solid #333;
+margin-top:20px;
+}
+
+#content{
+display:none
+}
+
+#login_form input[type=text], #login_form input[type=password]{
+border:0;
+background:#181818;
+box-shadow:0 0 10px #BF99BA;
+margin-top:20px;
+width:360px;
+height:32px;
+font-size:30px;
+color:#ddd;
+font-family:'segoe ui';
+border-radius:5px;
+-webkit-border-radius:5px;
+-o-border-radius:5px;
+}
+
+#submit{
+background: #e570e7;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U1NzBlNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iI2M4NWVjNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhODQ5YTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, #e570e7 0%, #c85ec7 47%, #a849a3 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e570e7), color-stop(47%,#c85ec7), color-stop(100%,#a849a3));
+background: -webkit-linear-gradient(top, #e570e7 0%,#c85ec7 47%,#a849a3 100%); 
+background: -o-linear-gradient(top, #e570e7 0%,#c85ec7 47%,#a849a3 100%);
+background: -ms-linear-gradient(top, #e570e7 0%,#c85ec7 47%,#a849a3 100%);
+background: linear-gradient(top, #e570e7 0%,#c85ec7 47%,#a849a3 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=0 );
+border:1px solid #111;
+-moz-border-radius:5px;
+border-radius:5px;
+-webkit-border-radius:5px;
+float:right;
+margin-right:20px;
+color:#eee;
+font-size:11px;
+height:25px;
+width:50px;
+}
+
+form#config_form{
+background:#222;
+-webkit-border-radius:5px;
+border-radius:5px;
+padding:10px;
+}
+
+#config_form ul{
+list-style-type:none;
+width:86%;
+}
+
+li{
+background:#333;
+color:#ddd;
+font-family:'segoe ui';
+margin:5px;
+text-align:right;
+clear:both;
+}
+
+li label{
+float:left;
+padding:3px;
+}
+
+textarea{
+height:75px;
+width:200px;
+}
+
+label span{
+font-size:10px;
+color:#aaa;
+}
+
+#config_form #result{
+display:none;
+height:30px;
+}
+
+#config_form #success{
+display:none;
+width:100%;
+height:45px;
+background:#dff2bf url('http://i.imgur.com/UrfM2.png') left center no-repeat;
+margin-top:30px;
+text-align:center;
+text-indent:35px;
+border:1px solid #4f8a10;
+color:#4f8a10;
+font-size:15px;
+line-height:43px;
+text-shadow: -1px 0 #9cc16d;
+}
+
+#notice{display;none}
